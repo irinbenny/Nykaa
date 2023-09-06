@@ -1,0 +1,488 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*----------head--------*/
+.head{
+    background-color: #fa7eae;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+.head ul{
+    margin-left: 350px;
+}
+.head ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 6px;
+    position: realtive;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.head ul li a{
+    font-size: 16px;
+    color: black;
+}
+
+hr{
+        color: #8c8d94;
+}
+
+h5{
+    padding: 10px 0px 0px 150px;
+    font-size: 16px;
+}
+
+/*--------navbar--------*/
+
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 70px;
+    width: 150px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.logo{
+    background-image: url(images/nykaa-logo.png);
+    height: 68px;
+    width: 105px;
+    background-size: cover;
+    margin-left: 40px;
+
+}
+.navbar p{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+/*------searchbar-----*/
+
+.signup{
+    background: #fff;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin-left: 300px;
+    text-align: center;
+}
+.search-input{
+    width: 100%;
+    height: 2.3rem;
+    font-size: 1rem;
+}
+.signin-b p{
+    background-color: #e80071;
+    border-radius: 4px;
+    width: 70px;
+    height: 29px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.878);
+    padding-right: 4px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.shopping-button{
+    margin-left: 25px;
+}
+
+/*-------header2-----*/
+
+.header2{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.header2 ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0 12px;
+        position: realtive;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 1500;
+        padding-top: 10px;
+    }
+.header2 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+.img-col{
+    display: flex;
+}
+
+/*--------features------*/
+
+.features{
+   display:flex;
+   justify-content: space-evenly;
+   background-color: white;
+   height: 400px;
+}
+
+.box{
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.box-image{
+    height: 300px;
+    width:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.features1{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 300px;
+ }
+ .box1{
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 160px;
+    margin-bottom: 100px;
+}
+
+ .box-image1{
+    height: 300px;
+    width:650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+/*--------header3-------*/
+
+.header3{
+    height:150px;
+    margin-left: 100px;
+}
+
+.heading{
+    margin-left: 100px;
+}
+
+/*--------header4------*/
+
+.header4{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 400px;
+    margin-left: 90px;
+ }
+
+.brand{
+     height: 300px;
+     width: 450px;
+     background-color: white;
+     cursor: pointer;
+ }
+ 
+.brand-image{
+     height: 300px;
+     width:450px;
+     background-size: cover;
+}
+
+.second-header4{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 400px;
+    margin-left: 90px;
+ }
+ 
+ .brand1{
+     height: 300px;
+     width: 450px;
+     cursor: pointer;
+     margin-right: 135px;
+ }
+ 
+ .brand-image1{
+     height: 300px;
+     width:600px;
+     background-size: cover;
+}
+
+/*--------header5-------*/
+
+.heading5-head{
+    margin-left: 100px;
+}
+
+.header5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 10px;
+
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-sub{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 300px;
+    width: 100px;
+    
+ }
+
+ /*--------band------*/
+
+ .sub-band
+ {
+    margin-left: 100px;
+ }
+ .band-header{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+ }
+ .brand-images{
+    height: 300px;
+    width:600px;
+    background-size: cover;
+    border-radius: 20px;
+}
+ .brand-images1{
+    height: 300px;
+    width:700px;
+    margin-left: 40px;
+    border-radius: 20px;
+ }
+ .band-contents{ 
+    margin-left: 20px;
+    color: #e80071;
+ }
+
+ .band-contents p{
+    color: #5c6874;
+ }
+
+ .band-contents2{
+    color: #e80071;
+    margin-left: 45px;
+ }
+ 
+ .sub1{
+     height: 300px;
+     width: 450px;
+     background-color: white;
+     cursor: pointer;
+ }
+ 
+ .sub1-image{
+     height: 300px;
+     width:450px;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ /*--------header6------*/
+
+.header6{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.header6-img{
+    width: 95%;
+}
+       
+/*-------footer-------*/
+
+.footer
+{
+height:20vh;
+background: #3a4047;
+color:white;
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+}
+.inbox{
+    display: flex;
+    
+    
+}
+.msg{
+   
+    margin-right: 40px;
+    margin-left: 50px;
+    width: 363px;
+}
+.msg-class{
+    display: flex;
+}
+.msg input{
+    height: 31px;
+    background-color: #3a4047;
+    border: none;
+    border-bottom: white solid;
+   
+}
+
+.msg button{
+    margin-top: 18px;
+    height: 34px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-weight: bolder;
+    background: transparent;
+    border: solid white 2px;
+    color: white;
+    
+}
+
+.button-class{
+    margin-right: 80px;
+}
+.call{
+    display: flex;
+    
+    
+}
+.app{
+    display: flex;
+    margin-right: 90px;
+    
+}
+
+
+.footer1{
+    
+    background-color: #8c8d94;
+    display: flex;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+}
+.footer1-logo{
+    background-image: url(images/nykaa-logo.png);
+    height: 64px;
+    width: 90px;
+    background-size: cover;
+    margin-left: 109px;
+    
+}
+
+.footer1 .col{
+    flex-basis:25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    margin-top: 25px; 
+
+}
+.footer1 .col a{
+    display: block;
+    border-radius: 2px;
+    background-color: transparent;
+    color:rgba(24, 22, 22, 0.7);
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+/*------headerlast-------*/
+.item1{
+    display: flex;
+    height: 220px;
+    width: 1500px;
+    justify-content: space-evenly;
+}
+.icon-class{
+   
+    height: 146px;
+    width: 237px;
+   display: flex;
+   margin: 35px;
+}
+
+.icon-logo
+{
+    
+    height: 44px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 45px;
+}
+
+.icon-text{
+    margin-top: 50px;
+    
+}
+.icon-text h4{
+    text-decoration: underline;
+    text-decoration-color: #f3f4f5;
+   
+}
+
+.media{
+    margin-top: 80px;
+}
+
+
+.header8{
+    
+    background: #e80071;
+    height: 80px;
+    color: white;
+    
+    text-align: center;
+    font-size: 0.7rem;
+}
+.headers8 {
+   padding-top: 25px;
+   cursor: pointer;
+}
+.headers8 a{
+   margin-left: 5px;
+}
+
+.header8-text{
+    padding-top: 5px;
+    
+}
+.header9{
+    height: 40px;
+}
